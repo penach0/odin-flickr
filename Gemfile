@@ -69,4 +69,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+
+  # Flickr API gem
+  gem 'flickr', '~> 2.1'
 end
