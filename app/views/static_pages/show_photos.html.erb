@@ -1,3 +1,7 @@
-<h1>You got here</h1>
+<h1><%= @username.capitalize %> Photos</h1>
 
-<%= @photo_ids %>
+<ul>
+    <% @photo_urls.each_with_index do |url, index| %>
+        <li><img src=<%= url %> alt=<%="photo #{index + 1}"%>></li>
+    <% end %>
+</ul>
