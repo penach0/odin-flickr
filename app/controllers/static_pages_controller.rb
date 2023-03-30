@@ -1,4 +1,9 @@
 class StaticPagesController < ApplicationController
-  def index
+  require 'flickr'
+
+  def index; end
+
+  def show_photos
+    
   end
 end
