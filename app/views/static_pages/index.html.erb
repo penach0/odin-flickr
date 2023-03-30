@@ -2,7 +2,7 @@
 
 <%= form_with url: show_photos_path, method: :get do |f| %>
     <%= f.label :id %>
-    <%= f.number_field :id %>
+    <%= f.text_field :id %>
 
     <%= f.submit "Find" %>
 <% end %>
